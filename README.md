@@ -6,12 +6,11 @@ The system lets administrators add and edit properties, owners, tenants, documen
 
 ## Features
 
-Features
-Backend: Django + Django REST Framework (APIs, admin panel)
-Frontend: React + Vite + Tailwind (modern UI)
-Database: PostgreSQL (via Docker in development)
-APIs: Properties, People, Documents, Applications, Calendar, Search
-Admin Tools: Upload photos, add details, publish/unpublish properties
+- Backend: Django + Django REST Framework (APIs, admin panel)
+- Frontend: React + Vite + Tailwind (modern UI)
+- Database: PostgreSQL (via Docker in development)
+- APIs: Properties, People, Documents, Applications, Calendar, Search
+- Admin Tools: Upload photos, add details, publish/unpublish properties
 
 
 
@@ -27,6 +26,7 @@ python manage.py runserver 127.0.0.1:8000
 ```
 
 ## Frontend
+```bash
 cd frontend
 npm install
 npm run dev   # http://localhost:5173
