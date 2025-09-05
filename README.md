@@ -8,7 +8,7 @@ The system lets administrators add and edit properties, owners, tenants, documen
 
 - Backend: Django + Django REST Framework (APIs, admin panel)
 - Frontend: React + Vite + Tailwind (modern UI)
-- Database: PostgreSQL (via Docker in development)
+- Database: PostgreSQL
 - APIs: Properties, People, Documents, Applications, Calendar, Search
 - Admin Tools: Upload photos, add details, publish/unpublish properties
 
