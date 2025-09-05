@@ -1,0 +1,1 @@
+export default function PropertyEditor(){return <div><h1 className='text-2xl font-semibold'>Property Editor</h1><p>Create or edit property.</p></div>}

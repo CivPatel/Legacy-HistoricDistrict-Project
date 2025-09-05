@@ -1,0 +1,1 @@
+export default function AccessDenied(){return <div><h1 className='text-2xl font-semibold'>Access Denied</h1></div>}

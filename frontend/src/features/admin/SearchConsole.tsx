@@ -1,0 +1,1 @@
+export default function SearchConsole(){return <div><h1 className='text-2xl font-semibold'>Search Console</h1><p>Unified search coming soon.</p></div>}

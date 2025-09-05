@@ -1,0 +1,1 @@
+export default function PeopleSearch(){return <div><h1 className='text-2xl font-semibold'>People Search</h1><p>Owners, tenants, users.</p></div>}
