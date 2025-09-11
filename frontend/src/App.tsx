@@ -3,7 +3,7 @@
  * Adds header/nav/footer and declares top-level routes.
  */
 
-import { Routes, Route, Link } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import Home from './features/public/Home'
 import PropertyBrowse from './features/public/PropertyBrowse'
 import PropertyDetail from './features/public/PropertyDetail'
