@@ -123,7 +123,7 @@ export default function WalkingTour() {
             <ol className="space-y-2 list-decimal list-inside">
               {stops.length === 0 && (
                 <div className="text-gray-600">
-                  No geocoded properties yet. Add <code>geocode_lat</code> and <code>geocode_lng</code> on an Address to see markers.
+                   <code></code>  <code></code> 
                 </div>
               )}
               {stops.map((s, i) => (
