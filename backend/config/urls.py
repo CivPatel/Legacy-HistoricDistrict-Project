@@ -1,3 +1,13 @@
+
+# MAP OF THE BACKEND
+# URLS — the map for the backend.
+# Each path leads to a view (a function/class that does work).
+# URLS — the GPS/map of the backend.
+# Each entry says: "When someone asks for THIS path, send them to THAT view."
+# Example: /api/properties/  -> PropertyListView (returns JSON list of all properties)
+# Example: /api/properties/2/ -> PropertyDetailView (returns details for one property)
+# Without this map, Django wouldn’t know which code to run when someone knocks on the door.
+
 from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings

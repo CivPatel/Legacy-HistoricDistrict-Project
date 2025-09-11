@@ -1,3 +1,10 @@
+"""
+VIEWS — the API workers.
+They receive a request (e.g., GET /api/properties/),
+ask the models for data, serialize it, and send it back.
+For create/update, they also validate incoming data.
+"""
+
 from rest_framework import viewsets, response
 from apps.properties.models import Property
 from apps.properties.serializers import PropertySerializer

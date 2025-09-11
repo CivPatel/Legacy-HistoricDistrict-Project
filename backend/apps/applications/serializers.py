@@ -1,3 +1,11 @@
+"""
+SERIALIZERS — turn Python objects into JSON (and back).
+They decide which fields appear in the API.
+Example: PropertySerializer shows name, address, photos, etc.
+"""
+
+
+
 from rest_framework import serializers
 from .models import Application, ApplicationAttachment, ApplicationLog
 class ApplicationLogSerializer(serializers.ModelSerializer):

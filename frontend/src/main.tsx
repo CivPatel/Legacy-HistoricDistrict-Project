@@ -1,3 +1,9 @@
+/**
+ * MAIN —  main setup/ entrance for the React app.
+ * Creates the app and puts it inside the HTML page.
+ * Usually sets up the router and global providers.
+ */
+
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'

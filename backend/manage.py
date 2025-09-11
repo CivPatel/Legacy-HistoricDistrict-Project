@@ -1,4 +1,9 @@
 #!/usr/bin/env python
+
+# manage.py basically turn on the functionality of django. 
+
+
+
 import os, sys
 def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings')

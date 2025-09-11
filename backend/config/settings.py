@@ -1,3 +1,12 @@
+
+# this is the control room for the entire project. 
+# Install apps 
+# PostgreSQL Connection for database.
+# CORS (Cross-Orgin Resource Sharing)
+# ALLOWED_HOST  Which one are allowed are controlled from hereeee.
+# TRY NOT TO MAKE CHANGE IN HERE IT WOULD MESSUP YOUR WHOLE PROJECT. JUST BE SAFE
+
+
 import os
 from pathlib import Path
 from datetime import timedelta

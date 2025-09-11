@@ -1,1 +1,8 @@
-export default function Home(){return <div><h1 className='text-2xl font-semibold'>Welcome</h1><p>Search properties, see events, take a walking tour.</p></div>}
+
+/**
+ * HOME PAGE — the welcome screen.
+ * Shows intro text and links to explore properties.
+ */
+
+export default function Home(){return <div><
+    h1 className='text-2xl font-semibold'>Welcome</h1><p>Search properties, see events, take a walking tour.</p></div>}
