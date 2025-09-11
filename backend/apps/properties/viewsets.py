@@ -1,6 +1,8 @@
 from rest_framework import viewsets, filters, decorators, response
 from .models import Property, Address, Photo, Flag
 from .serializers import PropertySerializer, AddressSerializer, PhotoSerializer, FlagSerializer
+
+
 class PropertyViewSet(viewsets.ModelViewSet):
     queryset = Property.objects.all().order_by('display_name')
     serializer_class = PropertySerializer
@@ -21,9 +23,12 @@ class PropertyViewSet(viewsets.ModelViewSet):
 class AddressViewSet(viewsets.ModelViewSet):
     queryset = Address.objects.all()
     serializer_class = AddressSerializer
+
 class PhotoViewSet(viewsets.ModelViewSet):
     queryset = Photo.objects.all()
     serializer_class = PhotoSerializer
+
+    
 class FlagViewSet(viewsets.ModelViewSet):
     queryset = Flag.objects.all()
     serializer_class = FlagSerializer

@@ -35,11 +35,15 @@ class PropertyTenant(models.Model):
     tenant = models.ForeignKey('people.Tenant', on_delete=models.CASCADE)
     start_date = models.DateField(null=True, blank=True)
     end_date = models.DateField(null=True, blank=True)
+
+
 class Photo(models.Model):
     property = models.ForeignKey(Property, on_delete=models.CASCADE, related_name='photos')
     file = models.ImageField(upload_to='photos/')
     caption = models.CharField(max_length=255, blank=True)
     taken_at = models.DateField(null=True, blank=True)
+
+
 class Flag(models.Model):
     property = models.ForeignKey(Property, on_delete=models.CASCADE, related_name='flags')
     key = models.CharField(max_length=50)
